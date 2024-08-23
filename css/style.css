@@ -15,27 +15,15 @@ header video{
 }
 @media (max-width:320px) {
     header video{
-        width: 400px;
-    
+        width: 320px;
     }
-header nav .logo h1{
-    margin-right: 250px;
-    padding: 8px;
-    font-size: 2px;
-}    
-
+    
 }
 header{
     height: 100vh;
     /* background:url(../pngwing.com.png) ; */
     background-size: cover;
     background-position: center;
-}
-@media (max-width:320px){
-    header{
-        width: 320px;
-        
-    }
 }
 header nav{
     display: flex;
@@ -98,24 +86,10 @@ text-align: center;
      top: 100%;
     left: 28%;     
 }
-@media (max-width:320px) {
-.main .main_heading .main_para h1{
-font-size: 50px;
-    left: 12%;
-    margin-top: 2%;
-}
-}
  .main .main_heading .main_para h1 span{
     font-size: 70px;
     line-height: 89px;
     font-family:"Matemasie", sans-serif ;
- }   
-@media (max-width:320px){
-    .main .main_heading .main_para h1 span{
-        font-size: 50px;
-        left: 12%;
-        margin-top: 2%;
-    }
 }
 .main .main_heading .main_para p{
     text-align: justify;
@@ -147,12 +121,6 @@ header .button a{
     color: white;
 
 }
-@media (max-width:320px){
-    header .button a{
-        font-size: 15px;
-        padding: 10px;
-    }
-}
 header .button a:hover{
     color: #000000;
 }
@@ -181,12 +149,6 @@ header .button a:hover{
     right: 10;
     bottom: 20%;
 }
-@media (max-width:320px){
-    .home h1{
-        font-size: 25px;
-    }
-}
-
 .home .home_text h2{
     text-transform: uppercase;
     font-family: "Matemasie", sans-serif; 
@@ -205,11 +167,6 @@ header .button a:hover{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap:50px;
 }
-@media (max-width:320px){
-    .home.box{
-    display:block;
-    }
-}
 .home .box .card{
     width:250px ;
     height: 400px;
@@ -219,12 +176,6 @@ header .button a:hover{
     padding: 10px 20px;
     background-color: rgb(0, 0, 0);
     margin-left:7%;
-}
-@media (max-width:320px){
-    .home .box .card{
-        width: 200px;
-        height:380px;
-    }
 }
 .home .box .card:hover{
     transform: scale(1.1) ;
@@ -282,14 +233,14 @@ transform: scale(1.2);
     top:30%;
 }
 .about .about_text p{
-    color: gray;
+    color: rgb(255, 252, 252);
     width: 80%;
     height: 100%;
     box-shadow: 0 0 8px rgb(67, 222, 228);
     border-radius: 5px;
     text-align: center;
     padding: 10px 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(2, 2, 2);
     margin-top: 30px;
     margin-left: 7%;
 }
